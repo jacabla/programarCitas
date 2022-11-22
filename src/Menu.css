@@ -1,0 +1,50 @@
+.mainMenu {
+  display: flex;
+  background-color: #3586ff;
+  opacity: 0.7;
+  justify-content: center;
+}
+
+.itemMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 10px 20px 0px 20px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+li:hover {
+  color: antiquewhite;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.formulario {
+  width: 40%;
+  text-align: center;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(53, 134, 255);
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.textoFormulario {
+  margin: 0;
+  padding: 10px 0px 0px 0px;
+  color: #000000;
+}
+
+.formBoton:hover {
+  background-color: transparent;
+  color: aliceblue;
+}
